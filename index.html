@@ -2,6 +2,9 @@
 <html>
 
 <head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <link
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -17,38 +20,59 @@
 </head>
 
 <body>
-	<div class="nav">
-		<div class="container">
-			<ul class="pull-left">
-				<li><a href="#">Überblick</a></li>
-				<li><a href="#">Mein Erstes Semester</a></li>
-				<li><a href="#">Mein Zweites Semester</a></li>
-			</ul>
-			<ul class="pull-right">
-				<li><a href="blabla.html">Wikipedia Suche</a></li>
-			</ul>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Brand</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="blabla.html">Wikipedia-Suche<span class="sr-only">(current)</span></a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Mein Studium<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Erstes Semester</a></li>
+							<li><a href="#">Zweites Semester</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Vorlesungsfreie Zeit</a></li>
+
+						</ul></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Impressum</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
 		</div>
-	</div>
+		<!-- /.container-fluid -->
+	</nav>
 
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Mein Studium an der Technischen Hochschule Mittelhessen</h1>
-			<a href="#">Learn More</a>
+			<a href="http://www.thm.de/site/">Learn More about THM</a>
 		</div>
 	</div>
 	<div class="neighborhood-guides">
 		<div class="container">
-			<h2>Verantaltungen im Überblick</h2>
+			<h2>Aktuelle Verantaltungen im Ãœberblick</h2>
 			<p>Alle Inhalte der Module nehmen bezug auf die Praxis</p>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<img
-							src="http://www.infforum.de/images/uml/klassen-diagramm-beherbergung.jpg">
-						<div class="container">
-							<h1>OOP</h1>
-						</div>
-
+						
 					</div>
 					<div class="thumbnail">
 						<img src="http://goo.gl/an2HXY">
@@ -100,5 +124,14 @@
 			</div>
 		</div>
 	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		window.jQuery
+				|| document.write('<script src="jquery.min.js"><\/script>')
+	</script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="docs.min.js"></script>
 </body>
 </html>
