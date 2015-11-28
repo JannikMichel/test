@@ -19,15 +19,17 @@
 </head>
 
 <body>
-	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-		<fieldset>
-			<legend>Wikipedia Suche</legend>
-			<input type="text" name="search" value="" role="textbox"
-				id="suchbegriff" />
-			<button type="submit" name="go" role="button">Artikel</button>
-			<button type="submit" name="fulltext" role="button">Volltext</button>
-		</fieldset>
-		<label for="suchbegriff">Suchbegriff eingeben</label>
-	</form>
+	<div id="wikidiv">
+		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			<fieldset>
+				<legend>Wikipedia Suche</legend>
+				<input type="text" name="search" value="" role="textbox"
+					id="suchbegriff" />
+				<button type="submit" name="go" role="button">Artikel</button>
+				<button type="submit" name="fulltext" role="button">Volltext</button>
+			</fieldset>
+			<label for="suchbegriff">Suchbegriff eingeben</label>
+		</form>
+	</div>
 </body>
 </html>

@@ -64,12 +64,11 @@
 	font-size: 15px;
 	margin-bottom: 13px;
 }
-
-.thumbnail .container{
-	margin:auto;
+.thumb{
+	width:300px;
+	heigth:300px;
 }
-.thumbnail first-child{
-	background-image:
-		url('http://www.hercampus.com/sites/default/files/2015/03/06/internet.jpg');
-	
+#wikidiv{
+	margin-left:auto;
+	margin-right:auto;
 }
